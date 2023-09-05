@@ -20,4 +20,6 @@ public class Member {
     private String zipcode;
     @OneToMany(mappedBy = "member")
     List<Order> orders = new ArrayList<>();
+
+
 }
